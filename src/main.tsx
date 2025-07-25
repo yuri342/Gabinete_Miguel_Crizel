@@ -11,6 +11,10 @@ createRoot(document.getElementById("root")!).render(
         <Header/>
       </section>
       <section className="flex flex-col flex-nowrap justify-center items-center content-normal w-full h-full">
+        <Linkbox 
+          link="teste"
+          title="Teste"
+          description="Descrição do teste"/>
       </section>  
     </div>
   </StrictMode>

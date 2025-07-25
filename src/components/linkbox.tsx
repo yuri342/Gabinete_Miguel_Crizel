@@ -15,8 +15,8 @@ function linkbox({link, title, description}: {
     description: string
     icon?: ReactNode}) {
     return (
-        <div className="flex flex-col flex-nowrap justify-center items-center content-center w-full h-fit">
-            <section className="linkbox">
+        <div className="glassMorph1 h-[70dvh] w-[90dvw] flex flex-col flex-nowrap justify-center items-center content-center sm:w-[75dvw] md:w-[50dvw]">
+            <section className="linkbox lexend-FontAppend400">
                 <section>
                     {/* {icon} */}
                     <a href={link}>{title}</a>

@@ -34,7 +34,6 @@
 }
 
 .glassMorph {
-
   background: rgba(0, 0, 0, 0.26);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(50px) saturate(1.2);
@@ -44,10 +43,11 @@
     rgba(0, 0, 0, 0.2) 0px 8px 32px, rgba(0, 0, 0, 0.05) 0px 2px 8px,
     rgba(255, 0, 0, 0) 0px 1px 0px inset,
     rgba(255, 255, 255, 0.035) 0px -1px 0px inset;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .glassMorph::before {
+  overflow: hidden;
   content: "";
   position: absolute;
   top: 0;
@@ -94,3 +94,45 @@
 .animate-enter {
   animation:EnterScreen 0.6s ease forwards;
 }
+
+/* animation shine header */
+
+.shineclass{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  height: 2000%;
+  width:  4px;
+  transform: rotate(45deg);
+  filter: blur(15px);
+  transition: all 0.5s ease-in-out;
+  animation: shineAnimation 5s ease-out infinite;
+  z-index: 1;
+}
+
+@keyframes shineAnimation {
+0% {
+    background-color: rgba(255, 255, 255, 0.548);
+    transform: translate(-20vw, -20vh) rotate(45deg);
+  }
+  
+  25%{
+    background-color: rgb(255, 255, 255);
+  }
+
+  50% {
+    background-color: rgba(255, 255, 255, 0.274);
+    width:6px;
+  }
+
+  80%{
+    transform: translate(100vw , 33vh) rotate(60deg);
+  }
+
+  130% {
+    background-color: rgba(255, 255, 255, 0.322);
+    transform: translate(100vw , 33vh) rotate(60deg);
+  }
+  
+}
+
+

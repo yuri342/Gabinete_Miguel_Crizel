@@ -5,13 +5,13 @@
 
 /* Glass morphism styles */
 .glassMorph1 {
-  background: rgba(0, 0, 0, 0.26);
+  background: rgba(0, 0, 0, 0.171);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(50px) saturate(1.2);
-  border-radius: 0px 0px 20px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.295);
+  -webkit-backdrop-filter: blur(10rem);
+  border-radius: 16px 16px 16px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.596);
   box-shadow: 
-    rgba(0, 0, 0, 0.2) 0px 8px 32px, rgba(0, 0, 0, 0.05) 0px 2px 8px,
+    rgba(0, 0, 0, 0.2) 0px 8px 32px, rgba(0, 0, 0, 0.377) 0px 2px 8px,
     rgba(255, 0, 0, 0) 0px 1px 0px inset,
     rgba(255, 255, 255, 0.035) 0px -1px 0px inset;
   overflow: auto;
@@ -45,4 +45,15 @@
     transparent,
     rgba(255, 255, 255, 0.3)
   );
+}
+
+/* LinkBox Styles */
+.linkbox {
+  padding: 15px 25px;
+  border-radius: 15px;
+  font-weight: 1000;
+  color: #212121;
+  background-color: #e8e8e8;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  content-visibility: auto;
 }
