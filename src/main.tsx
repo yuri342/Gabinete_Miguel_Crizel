@@ -3,13 +3,15 @@ import { createRoot } from "react-dom/client";
 import "./styles/indexStyle.css";
 import Header from "./components/header";
 import Linkbox from "./components/linkbox";
+import crizelBG from "/imgs/CrizelBG.png";
+import assMc from "/imgs/AssinaturaMiguelCrizel.png";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <div className="backgroundgradient">
       <section className="w-screen">
         <img
-          src="/imgs/CrizelBG.png"
+          src={crizelBG}
           className="
                 bg-img
                 absolute bottom-0
@@ -22,7 +24,7 @@ createRoot(document.getElementById("root")!).render(
           alt=""
         />
         <img
-          src="/imgs/AssinaturaMiguelCrizel.png"
+          src={assMc}
           alt=""
           className="z-[2] sm:z-[1] absolute bottom-0 right-0 origin-bottom-left h-[auto] w-30 pointer-events-none select-none"
         />
