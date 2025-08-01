@@ -8,7 +8,16 @@
   height: 100%;
 }
 
-.background {
+.bg-img {
+	mask-image: linear-gradient(to top left, transparent 26%, black 10%);
+	mask-image: linear-gradient(top bottom top, transparent 13%, black 50%);
+	-webkit-mask-image: linear-gradient(to top left, transparent 13%, black 70%);
+  	-webkit-mask-image: linear-gradient(to top, transparent 10%, black 35%);
+  	transform: rotate();
+}
+
+
+.backgroundgradient {
 	background: linear-gradient(-45deg, 
 		#ffcf00, /* Amarelo */
 		#39bf5f, /* Verde */
@@ -31,3 +40,10 @@
 	}
 }
 
+.backgroundTeste {
+	background-image: url("imgs/bandeiraBrasilBh.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}

@@ -24,6 +24,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  transition: all ease-in-out 100ms;
 }
 
 .lexend-FontAppend200 {
@@ -31,9 +32,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  transition: all ease-in 200ms;
 }
 
 .glassMorph {
+  animation-delay: 3s;
   background: rgba(0, 0, 0, 0.26);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(50px) saturate(1.2);
@@ -80,7 +83,7 @@
 
 @keyframes EnterScreen {
     0% {
-        position: absolute;
+        position: relative;
         opacity: 0;
         transform: translateY(-100px);
     }

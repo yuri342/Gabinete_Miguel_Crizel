@@ -1,4 +1,5 @@
 @import 'tailwindcss';
 
-
-/* Shine Animation */
+.mask1 {
+    -webkit-mask-image: linear-gradient(to top, transparent 10%, black 35%);
+}

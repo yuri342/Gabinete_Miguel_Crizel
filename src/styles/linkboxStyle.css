@@ -5,6 +5,7 @@
 
 /* Glass morphism styles */
 .glassMorph1 {
+  transition: all 250ms;
   background: rgba(0, 0, 0, 0.171);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10rem);
@@ -14,7 +15,7 @@
     rgba(0, 0, 0, 0.2) 0px 8px 32px, rgba(0, 0, 0, 0.377) 0px 2px 8px,
     rgba(255, 0, 0, 0) 0px 1px 0px inset,
     rgba(255, 255, 255, 0.035) 0px -1px 0px inset;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .glassMorph1::before {
@@ -53,7 +54,26 @@
   border-radius: 15px;
   font-weight: 1000;
   color: #212121;
+  overflow: hidden;
   background-color: #e8e8e8;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   content-visibility: auto;
+}
+
+.opacity {
+  animation-delay: 5s;
+  animation: opacity 1s ease-in-out normal;
+}
+
+@keyframes opacity {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
