@@ -1,4 +1,5 @@
-## Sobre o Projet
+## Sobre o Projeto
+
 ### Linktree
 
 Este projeto foi feito como inicialmente um breve linktree, para centralizar formulários usados pelo RH e Administração do gabinete do cliente.
