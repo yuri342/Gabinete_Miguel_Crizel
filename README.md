@@ -1,3 +1,13 @@
+##Sobre o Projeto
+###Linktree
+
+Este projeto foi feito como inicialmente um breve linktree, para centralizar formulários usados pelo RH e Administração do gabinete do cliente.
+Nestes links foram feitos redirecionamentos para googleForms onde fui responsável pela automação e organização dos próprios.
+
+Projeto simples visando mais uma visibildiade como freelancer. O projeto foi deployado em sua primeira versão em 2 semanas.
+
+##Abaixo o Readme Padrão do Vite
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
