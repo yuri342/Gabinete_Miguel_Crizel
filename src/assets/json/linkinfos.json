@@ -3,7 +3,7 @@
     {
       "link": "https://docs.google.com/forms/d/e/1FAIpQLSeHvyHsiTBYrvRWNPFxKyOOBKg9WVoUKz6eTglLqVEBpaQDxg/viewform?usp=preview",
       "title": "Saúde 🏥",
-      "description": "Agende consultas médicas ou solicite medicamentos essenciais.",
+      "description": "Encaminhe solicitações, reclamações ou demandas relacionadas aos serviços públicos de saúde.",
       "summary": "Serviços básicos de saúde para a comunidade.",
       "icon": "FaInstagram"
     }
@@ -12,7 +12,7 @@
     {
       "link": "https://docs.google.com/forms/d/e/1FAIpQLSeRXhlsdtpnp0CVen1sfTpq2XjxExmjeozWYuHuvzQF9A2z4w/viewform?usp=preview",
       "title": "Obras 🛠",
-      "description": "Solicite troca de lâmpadas, conserto de ruas, patrolamento ou reparo em vias.",
+      "description": "Solicite encaminhamento para manutenção de vias, iluminação pública e melhorias na infraestrutura do município.",
       "summary": "Solicitações de melhorias em infraestrutura urbana.",
       "icon": "FaInstagram"
     }
@@ -20,8 +20,8 @@
   "3": [
     {
       "link": "https://docs.google.com/forms/d/e/1FAIpQLSd7kCm_lblzbfaqLRbAHV7AiDhBuFssHK5NNbuTw6F48lxZBg/viewform?usp=preview",
-      "title": "Pedidos de Ajuda 🆘",
-      "description": "Peça ajuda alimentar, habitacional ou informe outras necessidades.",
+      "title": "Assistência Social 🤝",
+      "description": "Encaminhe demandas relacionadas a benefícios sociais, auxílio alimentar ou programas habitacionais.",
       "summary": "Apoio social para quem mais precisa.",
       "icon": "FaTwitter"
     }
@@ -30,7 +30,7 @@
     {
       "link": "https://docs.google.com/forms/d/e/1FAIpQLScu5-aWuHSgHR4cUPzxA1lH7lvllpyDIN1RiUZmPM-OHN0QTQ/viewform?usp=preview",
       "title": "Agenda 📅",
-      "description": "Marque horários para reuniões ou consultas com o vereador.",
+      "description": "Solicite agendamento de reunião com o vereador.",
       "summary": "Organize compromissos com o gabinete.",
       "icon": "FaLinkedin"
     }
@@ -38,8 +38,8 @@
   "5": [
     {
       "link": "https://docs.google.com/forms/d/e/1FAIpQLSfK_-YchvcjgBC2qonUIIn1AC1MCb_QrtrNrkgCjJ4N-_FIEA/viewform?usp=preview",
-      "title": "Empregos 💼",
-      "description": "Envie seu currículo e de seu contato para futuras oportunidades.",
+      "title": "Oportunidades 💼",
+      "description": "Cadastre seu currículo para encaminhamento a oportunidades divulgadas ao gabinete.",
       "summary": "Acesso a vagas e envio de currículos.",
       "icon": "FaFacebook"
     }
